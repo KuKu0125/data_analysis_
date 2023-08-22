@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(243, 243, 243);
+}
+
+nav {
+    height: 70px;
+}
+
+.navbar {
+    background-color: rgb(184, 211, 219);
+    height: 40px;
+}
+
+li a {
+    color: rgb(66, 55, 25) !important;
+    font-size: 20px;
+
+}
+
+li a:hover {
+    color: lightyellow !important;
+    background-color: rgb(29, 77, 122);
+
+}
+
+.navbar-toggler {
+    background-color: lightgray;
+}
+
+.nav-link {
+    padding: 20px;
+}
+
+@media (max-width:600px) {
+    nav {
+        height: auto;
+    }
+
+    .nav-link {
+        padding: 10px;
+    }
+}
